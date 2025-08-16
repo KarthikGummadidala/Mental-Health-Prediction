@@ -4,8 +4,8 @@ This project uses Instagram feed data to predict mental health conditions such a
 
 # Data
 
-Your code expects a CSV with at least a text column (raw user sentences/posts). The notebook then creates these additional columns:
-
+The dataset is the collection of multiple datasets of total 70,000+ rows.
+  
 cleaned_text — text after lowercasing, URL/mention/hashtag/punctuation removal.
 
 sentiment_score — TextBlob polarity score in [-1, 1] computed from cleaned_text.
@@ -18,9 +18,9 @@ specific_label — mapped emotion label derived from sentiment_score using your 
 
 [−0.5, 0) → Depression
 
-[−0.75, −0.5) → Anaxity (typo in code; probably “Anxiety”)
+[−0.75, −0.5) → Anxiety
 
-otherwise → Suicidual thoughts (typo in code; probably “Suicidal thoughts”)
+otherwise → Suicidal thoughts
 
 # Environment & Requirements
 
